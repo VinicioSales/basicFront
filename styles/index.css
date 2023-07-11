@@ -1,0 +1,56 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#c0c0d9;
+}
+
+.leftFrame {
+    width: 30%;
+    height: 70%;
+    background-color: #dddde7;
+    border: none;
+    box-shadow: -13px 13px 16px -11px #A3A3B3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flashMessages {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Bungee', cursive;
+    
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000736;
+    font-size: 15px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.rightFrame {
+    width: 30%;
+    height: 70%;
+    background-color: #f4f5f5;
+    border: none;
+    box-shadow: 15px 13px 16px -11px #A3A3B3;
+}
+
+
